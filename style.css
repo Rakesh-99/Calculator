@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.btno{
+    padding: 30px 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+    font-size: 35px;
+}
+input{
+    margin: 20px 10px;
+
+}
+#clr{
+    width: 30rem;
+    padding: 10px 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    background-color: rgb(255, 70, 70);
+    border: none;
+    color: aliceblue;
+    font-family: monospace;
+    border-radius: 10px;
+
+}
+#res{
+
+    width: 30rem;
+    padding: 30px 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    border-radius: 10px;
+}
+#green{
+    color: greenyellow;
+}
+
+#equal{
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+.btno:hover{
+    background-color: rgb(95, 94, 94);
+}
+
+
+/* code for responsive  */
+
+@media(max-width: 535px){
+
+    .btno{
+    padding: 20px 30px;
+    }
+
+    #clr{
+    width: 25rem;
+    }
+#res{
+
+    width: 25rem;
+    }
+
+}
+
+@media(max-width: 432px){
+
+     .btno{
+    padding: 15px 25px;
+    }
+
+    #clr{
+    width: 22rem;
+    }
+    #res{
+
+    width: 22rem;
+    }
+}
+
+@media(max-width: 393px){
+
+     .btno{
+    padding: 10px 20px;
+    }
+
+    #clr{
+    width: 20rem;
+    }
+    #res{
+
+    width: 20rem;
+    }
+}
+@media(max-width: 353px){
+
+     .btno{
+    padding: 8px 16px;
+    }
+
+    #clr{
+    width: 18rem;
+    }
+    #res{
+
+    width: 18rem;
+    }
+}
+
+@media(max-width:322px){
+
+    input{
+    margin: 10px 10px;
+
+}
+}

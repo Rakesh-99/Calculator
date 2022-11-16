@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="screen">
+            <input type="text" readonly id="res" placeholder="0">
+        </div>
+
+        <div class="clearCls">
+            <input type="button" value="Clear" id="clr">
+        </div>
+
+        <div class="btn">
+            <input type="button" class="btno" value="1" name="1" onclick="btnClick(this)">
+            <input type="button" class="btno" value="2" name="2" onclick="btnClick(this)">
+            <input type="button" class="btno" value="3" name="3" onclick="btnClick(this)">
+            <input type="button" class="btno" value="0" name="0" onclick="btnClick(this)">   
+        </div>
+
+           <div class="btn">
+            <input type="button" class="btno" value="4" name="4" onclick="btnClick(this)">
+            <input type="button" class="btno" value="5" name="5" onclick="btnClick(this)">
+            <input type="button" class="btno" value="6" name="6" onclick="btnClick(this)">
+            <input type="button" class="btno" value="+" name="add" id="green" onclick="btnClick(this)">   
+        </div>
+
+           <div class="btn">
+            <input type="button" class="btno" value="7" name="7" onclick="btnClick(this)">
+            <input type="button" class="btno" value="8" name="8" onclick="btnClick(this)">
+            <input type="button" class="btno" value="9" name="9" onclick="btnClick(this)">
+            <input type="button" class="btno" value="-" name="sub" id="green" onclick="btnClick(this)">   
+        </div>
+
+           <div class="btn">
+            <input type="button" class="btno" value="*" name="mul" id="green" onclick="btnClick(this)">
+            <input type="button" class="btno" value="/" name="div" id="green" onclick="btnClick(this)">
+            <input type="button" class="btno" value="." name="dot"  onclick="btnClick(this)">
+            <input type="button" class="btno" value="=" name="equal"  id="equal">   
+        </div>
+
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
